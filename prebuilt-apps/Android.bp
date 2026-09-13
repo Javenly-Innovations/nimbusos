@@ -172,21 +172,6 @@ android_app_import {
     ],
 }
 android_app_import {
-    name: "Firefox",
-    apk: "org.mozilla.firefox_155.0.1-2016182535_minAPI26(arm64-v8a,armeabi-v7a,x86_64)(nodpi)_apkmirror.com.apk",
-    presigned: true,
-    preprocessed: true,
-    product_specific: true,
-    enforce_uses_libs: false,
-    dex_preopt:{
-        enabled:false,
-    },
-    overrides:[
-        "Browser2",
-        "Jelly"
-    ],
-}
-android_app_import {
     name: "Aptoide",
     apk: "Aptoide_vanilla-prod-release_10.0.0_13001.apk",
     presigned: true,

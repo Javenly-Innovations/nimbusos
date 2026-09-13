@@ -11,7 +11,6 @@ PRODUCT_PACKAGES += \
     FossifyNotes \
     FossifyCalendar \
     FossifyContacts \
-    Firefox \
     Aptoide
 
 PRODUCT_PACKAGES -= \
