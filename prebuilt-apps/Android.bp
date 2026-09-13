@@ -1,0 +1,199 @@
+android_app_import {
+    name: "FossifyFileManager",
+    apk: "file-manager-13-foss-release.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    enforce_uses_libs: false,
+    dex_preopt:{
+        enabled:false,
+    },
+    overrides:[
+        "DocumentsUI"
+    ],
+}
+
+android_app_import {
+    name: "FossifyCamera",
+    apk: "camera-11-foss-release.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    enforce_uses_libs: false,
+    dex_preopt:{
+        enabled:false,
+    },
+    overrides:[
+        "Camera2",
+        "Aperture"
+    ],
+    
+}
+
+android_app_import {
+    name: "FossifyCalculator",
+    apk: "calculator-10-foss-release.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    enforce_uses_libs: false,
+    dex_preopt:{
+        enabled:false,
+    },
+    overrides:[
+        "ExactCalculator"
+    ],
+}
+
+android_app_import {
+    name: "FossifyVoiceRecorder",
+    apk: "voicerecorder-18-foss-release.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    enforce_uses_libs: false,
+    dex_preopt:{
+        enabled:false,
+    },
+}
+
+android_app_import {
+    name: "FossifyDocuments",
+    apk: "documents-6-foss-release.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    enforce_uses_libs: false,
+    dex_preopt:{
+        enabled:false,
+    },
+}
+
+android_app_import {
+    name: "FossifyClock",
+    apk: "clock-10-foss-release.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    enforce_uses_libs: false,
+    dex_preopt:{
+        enabled:false,
+    },
+    overrides:[
+        "DeskClock"
+    ],
+}
+
+android_app_import {
+    name: "FossifyGallery",
+    apk: "gallery-28-foss-release.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    enforce_uses_libs: false,
+    dex_preopt:{
+        enabled:false,
+    },
+    overrides:[
+        "Gallery2",
+        "Glimpse"
+    ],
+}
+
+android_app_import {
+    name: "FossifyMessages",
+    apk: "messages-23-foss-release.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    enforce_uses_libs: false,
+    dex_preopt:{
+        enabled:false,
+    },
+    overrides:[
+        "messaging"
+    ],
+}
+
+android_app_import {
+    name: "FossifyPhone",
+    apk: "phone-22-foss-release.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    enforce_uses_libs: false,
+    dex_preopt:{
+        enabled:false,
+    },
+    overrides:[
+        "Dialer"
+    ],
+}
+
+android_app_import {
+    name: "FossifyNotes",
+    apk: "notes-13-foss-release.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    enforce_uses_libs: false,
+    dex_preopt:{
+        enabled:false,
+    },
+}
+
+android_app_import {
+    name: "FossifyCalendar",
+    apk: "calendar-20-foss-release.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    enforce_uses_libs: false,
+    dex_preopt:{
+        enabled:false,
+    },
+    overrides:[
+        "Calendar",
+        "Etar"
+    ],
+}
+android_app_import {
+    name: "FossifyContacts",
+    apk: "contacts-13-foss-release.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    enforce_uses_libs: false,
+    dex_preopt:{
+        enabled:false,
+    },
+    overrides:[
+        "Contacts"
+    ],
+}
+android_app_import {
+    name: "Firefox",
+    apk: "org.mozilla.firefox_155.0.1-2016182535_minAPI26(arm64-v8a,armeabi-v7a,x86_64)(nodpi)_apkmirror.com.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    enforce_uses_libs: false,
+    dex_preopt:{
+        enabled:false,
+    },
+    overrides:[
+        "Browser2",
+        "Jelly"
+    ],
+}
+android_app_import {
+    name: "Aptoide",
+    apk: "Aptoide_vanilla-prod-release_10.0.0_13001.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    enforce_uses_libs: false,
+    dex_preopt:{
+        enabled:false,
+    },
+}
