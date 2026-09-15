@@ -23,5 +23,5 @@ PRODUCT_PACKAGES -= \
     Recorder
 
 PRODUCT_PACKAGE_OVERLAYS := \
-    vendor/nimbus/overlay/common \
-    $(PRODUCT_PACKAGE_OVERLAYS)
+    $(PRODUCT_PACKAGE_OVERLAYS) \
+    vendor/nimbus/overlay/common
