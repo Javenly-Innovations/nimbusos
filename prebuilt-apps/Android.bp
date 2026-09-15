@@ -55,6 +55,11 @@ android_app_import {
     dex_preopt:{
         enabled:false,
     },
+    overrides:[
+        "audiofx",
+        "twelve",
+        "recorder"
+    ],
 }
 
 android_app_import {
