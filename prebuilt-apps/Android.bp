@@ -41,7 +41,8 @@ android_app_import {
         enabled:false,
     },
     overrides:[
-        "ExactCalculator"
+        "ExactCalculator",
+        "twelve",
     ],
 }
 //hi

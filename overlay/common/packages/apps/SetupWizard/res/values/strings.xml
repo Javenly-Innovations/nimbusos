@@ -21,6 +21,15 @@
     <string name="ok">OK</string>
     <string name="loading">Just a sec\u2026</string>
 
+    <!-- Optional app store page -->
+    <string name="app_store_title">App store</string>
+    <string name="app_store_option">Install an app store</string>
+    <string name="app_store_description">You can install an app store now. The APK will be downloaded from the configured URL.</string>
+    <string name="app_store_downloading">Downloading and installing. Please keep this page open.</string>
+    <string name="app_store_invalid_url">The app store URL is not configured. Update app_store_apk_url and try again.</string>
+    <string name="app_store_install_failed">Could not install the app store: %1$s</string>
+    <string name="app_store_apk_url" translatable="false">https://izzysoft.de/fdroid/repo/com.aurora.store_76.apk</string>
+
     <!-- Welcome page -->
     <string name="setup_welcome_message">Welcome to NimbusOS</string>
     <string name="setup_managed_profile_welcome_message">Set up your work profile</string>
