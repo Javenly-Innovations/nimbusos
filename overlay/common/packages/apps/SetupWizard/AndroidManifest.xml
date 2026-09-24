@@ -293,18 +293,6 @@
             <intent-filter>
                 <action android:name="org.lineageos.setupwizard.LINEAGE_SETUP_COMPLETE" />
 
-        <activity
-            android:name=".AppStoreActivity"
-            android:label="@string/activity_label_empty"
-            android:configChanges="mcc|mnc"
-            android:immersive="true"
-            android:exported="false"
-            android:windowSoftInputMode="stateAlwaysHidden">
-            <intent-filter>
-                <action android:name="org.lineageos.setupwizard.APP_STORE" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
                 <action android:name="org.lineageos.setupwizard.SETUP_FINISHED" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
